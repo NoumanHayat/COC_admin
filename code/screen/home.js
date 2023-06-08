@@ -47,7 +47,7 @@ const Screen = ({ navigation }) => {
                             <Card style={{ justifyContent: 'center', alignItems: 'center' }}>
                                 <TouchableOpacity onPress={async () => {
 
-                                    // navigation.push("Builder Hall Base", res);
+                                     navigation.push('Report');
 
                                 }}>
                                     <View style={{ alignItems: 'center', padding: 20, paddingBottom: 0 }}>
